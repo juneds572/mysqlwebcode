@@ -3,11 +3,11 @@
         <title>Ahmad</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 </head>
-<body style="background-color: #006400">
+<body style="background-color: #163D63">
         <div class="ui container">
                 <div class="ui segment" style="max-width: 800px; margin: 0 auto;">
-			<h2 class="ui center aligned header""><font color="ForestGreen">Azure Database LAB</h2>
-			<h3 class="ui center aligned header""><font color="OliveDrab">Read/Write Server</h3>
+			<h2 class="ui center aligned header""><font color="DarkBlue">Azure Database LAB</h2>
+			<h3 class="ui center aligned header""><font color="SteelBlue">Read and Write Server</h3>
                                 <form class="ui form" style="width: 400px; margin: 0 auto">
                                 <h3 class="ui header"></h3>
                                 <div class="field">
@@ -25,7 +25,10 @@
                                 <div class="field">
                                         <div class="ui grid">
                                                 <div class="eight wide column">
-                                                    <button class="ui button" id="product_fetch">Read/ Add</button>
+                                                        <button class="ui button" id="product_add">Add</button>
+                                                </div>
+                                                <div class="eight wide column" style="text-align: right;">
+                                                        <button class="ui button" id="product_fetch">Read</button>
                                                 </div>
                                         </div>
                                 </div>
